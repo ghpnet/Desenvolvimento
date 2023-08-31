@@ -8,8 +8,8 @@ import { useState} from 'react'
                 {/*Lista não ordenada que ira imprimir os itens da lista
                 Quando retornar objetos usar parenteses */}
                 <ul>
-                    { minhaList.map ((item) => (
-                        <li>{item}</li>
+                    { minhaList.map ((item, coluna) => (
+                        <li key={(coluna)}>{item}</li>
                     ))}
                 </ul>
             </div>
