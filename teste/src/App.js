@@ -7,14 +7,16 @@ import './App.css';
 // import RenderizarListasIndice from './components/RemoveList';
 // import { RendereizaCondicional } from './components/RendereizaCondicional';
 // import { CondicionalTernario } from './components/RenderizaIf';
-import Destruturado from './components/Destruturado';
+//import Destruturado from './components/Destruturado';
+// import Destruturado from './components/Destruturado';
+import MeuFragmento from './MeuFragmento';
 
 function App() {
-  const carros = [
-    {id: 1, marca:"Nissan",km:170952, cor:"Preta",zero:false},
-    {id: 2, marca:"Fiat",km:0, cor:"Vermelho",zero:true},
-    {id: 3, marca:"GM",km:168100, cor:"Vermelho",zero:false}
-  ]
+  // const carros = [
+  //   {id: 1, marca:"Nissan",km:170952, cor:"Preta",zero:false},
+  //   {id: 2, marca:"Fiat",km:0, cor:"Vermelho",zero:true},
+  //   {id: 3, marca:"GM",km:168100, cor:"Vermelho",zero:false}
+  // ]
   return (
     <div className="App">
       <header className="App-header">
@@ -25,13 +27,13 @@ function App() {
         <RenderizarListasIndice />
         <RendereizaCondicional /> 
         <CondicionalTernario />*/}
-        <Destruturado marca="Nissan" km={179952} cor="Preta" zero={false} />
+        {/* <Destruturado marca="Nissan" km={179952} cor="Preta" zero={false} />
         <Destruturado marca="Fiat" km={0} cor="Vermelho" zero={true} />
         <h4>Testes de Cons MAP</h4>
         {carros.map ((vet) => (
               <Destruturado key={vet.id} marca={vet.marca} km={vet.km} cor={vet.cor} zero={vet.zero}/>
-        )) }
-        
+        )) } */}
+        <MeuFragmento />
   
 
       </header>
