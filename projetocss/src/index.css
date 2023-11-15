@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 0px;
+  background-color:whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+h1 {
+  color: green;
+}
+
+.texto{
+  color: green;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h2{
+  color: green;
+  background-color: #c83232;
+  font-size: 24px;
+}
+
+
+.logo{
+  animation: pulsar 1s infinite alternate;
+  margin-top: 30px;
+  margin-bottom: 30px;;
+}
+
+.classe-dinamica-CSS{
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    border: 10px solid blue;
+  }
+  .outra-classe-dinamica-CSS{
+    background-color: black;
+    color: white;
+  }
+  
+
+
+
+
+@keyframes pulsar {
+  to {
+    transform: scale(1.2);
+  }
+}

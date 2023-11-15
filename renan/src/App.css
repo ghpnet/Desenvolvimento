@@ -1,0 +1,50 @@
+.App {}
+
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  align-self: center;
+  box-sizing: border-box;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.email {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.email.sucesso {
+  background-color: lightgreen;
+}
+
+.email.erro {
+  background-color: lightpink;
+}
+
+.exemplo-lista {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.email-numero {
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 30px;
+  margin: -10px;
+}

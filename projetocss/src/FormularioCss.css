@@ -1,0 +1,12 @@
+form{
+    width: 500PX;
+    margin: 0;
+    text-align: left;
+}
+
+label,input,textarea,select{
+    display:block ;
+    margin-top: 10px;
+    font-size: 30px;
+}
+    
